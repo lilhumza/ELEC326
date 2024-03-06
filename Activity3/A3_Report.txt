@@ -1,0 +1,19 @@
+[Insert Default Figures]
+
+Line 6: The numPy random number generator is provided a seed number of 11 (group number). What the seed number allows for is the consistent/reproduceable generation of random numbers, as in running the code will result in the same numbers being randomly generated.
+ 
+Line 10: The variable noise is assigned an array of random numbers generated based upon the span of the x axis range of values in conjunction with the provided amplitude (0.02) as a scaling factor. 
+ 
+Line 11: The variable y_obs is assigned a multitude of elements to determine a corresponding y location for each of the randomized noise observations, what is seen are two sinusoid elements with a defined amplitude for the signal, in conjunction with x_obs and the addition of the noise elements.
+ 
+Line 13: The variable x_true is assigned an array 1000 values starting from -0.5 to 1.5, used to establish coordinates the x-axis coordinates for a plot.
+ 
+Line 14: The variable y_true is assigned an array of values corresponding to the x_true values, with the data being generated based upon the signal amplitude and the generation of sinusoids in conjunction with the x_true, no noise factors. In essence being a baseline plot denoting the true/accurate signal.
+
+[Insert 0.2 Amplitude Figures]
+
+[Insert 0.03 Amplitude Figures]
+
+[Insert 0.6 Amplitude Figures]
+
+Both cases decrease model prediction accuracy however, 2.2 where we increase the noise amplitude lowers the accuracy significantly more. This result is likely due to higher noise levels being able to obscure the signal more and make it harder for the model to extract patterns. Higher levels of noise introduce more randomness and uncertainty into the data as well as can mask or distort the signal.

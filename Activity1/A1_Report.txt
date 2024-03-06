@@ -1,0 +1,17 @@
+[Insert Figure Results For N = 100]
+
+In Question 1, the plotted Probability Mass Function (PMF) of x shows that each number on a die should be rolled an equal number of times, and the PMF of y shows that the sum of three dice should most commonly be 10 and 11, and least likely 3 and 18.
+
+After 100 trials of rolling the dice, the plotted x observations show that the distribution of number rolled is nearly an equal amount for each number with the highest being 22 rolls and the lowest being 18. This closely resembles the PMF of x, and shows that even with a small sample size, the PMF is generally true. Similarly, the plotted y observations show that the distribution of the sum of three dice trend toward a peak in between the values of 8 and 13. This slightly resembles the PMF of y. Curiously, however, the probable peak of sums 10 and 11 are somewhat lower than the 2 values higher and lower than them. This likely shows that with a larger sample size, the data would follow the parabolic trend of the PMF more closely.
+
+[Insert Figure Results For N = 1000000]
+
+When the same experiments are done after 1 million trials, the plotted observations of both x and y are practically identical to their respective PMFs. Realistically, they may differ slightly on an extremely miniscule scale but it is clear that the PMFs can be assumed to be true in future usage.
+
+In Question 2, the estimated means for RV1, RV2, and RV3 are 50, 30, and 30 (Figure 1). While the variances are 100, 25, and 25, respectively (Figure 2). These show that for 100 discrete values in RV1, they are normally distributed with 50 at its peak and a range of 100 declining each way from the average. In the same way, RV2 and RV3 have more of a Rayleigh distribution with peaks at 30 and a range of 25 in each direction (Figure 3). 
+
+[Insert Mean & Variance Values]
+
+[Insert Random Variable Plots]
+
+When the observed counts of each number are plotted and divided by the number of trials the distributions remain the same showing that no matter the sample size, the distribution is determined by the range of values given. In addition, probabilities of estimations for values between 10 and 40 are similarly distributed. It can be assumed that any estimation of values will keep the same range and distribution.

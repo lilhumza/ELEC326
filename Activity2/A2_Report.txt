@@ -1,0 +1,32 @@
+[Insert Joint PMF Plots]
+
+% PMF Data from an execution (x,y): 
+% (0,0): 0.2497    (0,1): 0.5001
+% (1,0): 0.1246    (1,1): 0.1256
+ 
+% PMF Data provided from assignment (x,y): 
+% (0,0): 0.25    (0,1): 0.5
+% (1,0): 0.125    (1,1): 0.125
+
+What is seen is a very close resultant outcome in comparison to the provided data, moreover being a successful validation of the overall PMF, what can be seen is minor difference often in the magnitude of the thousandths which is very much expected. To remediate the difference, a larger N should be used.
+
+% Marginal PMF Data from an execution:
+% PMF_x:
+% (x=0): 0.7511    (x=1): 0.2489
+
+% PMF_y:
+% (y=0): 0.3729    (y=1): 0.6271
+ 
+What can be seen is the probabilities of each event regardless of theother in other words the individual respective events in comaprison to the provided PMF of the group events. The probabilities are relatively varying in regards to the individual events as the individual values occur across many permutations but are considered individually in the context.
+
+[Insert Joint PMF Plots of RV]
+
+The values of RV1 and RV2 are correlated since the PMF graph shows the shape of the contour moving in a diagonal direction suggesting a linear relationship between the two. The values of RV1 and RV3 on the other hand have a more rounded shape suggesting an independent relationship between the two variables meaning they are not correlated.
+
+The correlation seen in part 1 is proven here as the correlation between RV1 and  RV2 is Higher than that of RV1 and RV3 which have very little correlation.  Therefore, this supports the results of part 1.
+
+The function is first transposed by setting H = H’. Then the range of the x values is set. Then it finds the corresponding rows in the matrix H and then sums the probabilities for the selected rows giving a final probability of x being between 20 and 70 of 0.9723. 
+
+[Insert Conditional PMF Plots]
+
+Based on the results of these graphs you can see that when Y=40 specific values of X have a significantly larger probability than when Y=10(asides from 1 outlier). In particular when X = 22 and 26, the P(X|Y) = 0.183 approximately when Y=40. Whereas in the other graph with Y=10, when x=22, P = 0.03 and when x = 26, P 0.08. Although the graph with Y=40 has a greater probability with specific X values, the graph has several more X values where the probability is 0. Meaning that the graph where Y=10 has a much larger distribution over X.
